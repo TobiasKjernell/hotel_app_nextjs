@@ -1,11 +1,12 @@
 import SelectCountry from "@/app/_components/SelectCountry";
 
+
 export default function Page() {
   // CHANGE
-  const countryFlag = "pt.jpg";
+  const countryFlag = "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
   const nationality = "portugal";
 
-  return (
+  return (  
     <div>
       <h2 className="font-semibold text-2xl text-accent-400 mb-4">
         Update your guest profile
