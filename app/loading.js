@@ -5,4 +5,4 @@ const Loading = () => {
     return <Spinner />
 }
 
-export default Loading;             
+export default Loading;                     

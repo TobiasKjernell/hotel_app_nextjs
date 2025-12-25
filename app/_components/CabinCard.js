@@ -27,16 +27,16 @@ function CabinCard({ cabin }) {
             <p className="text-lg text-primary-200">
               For up to <span className="font-bold">{maxCapacity}</span> guests
             </p>
-          </div>
+          </div>  
 
           <p className="flex gap-3 justify-end items-baseline">
             {discount > 0 ? (
-              <>
+              <>  
                 <span className="text-3xl font-[350]">
                   ${regularPrice - discount}
                 </span>
                 <span className="line-through font-semibold text-primary-600">
-                  ${regularPrice}
+                  ${regularPrice}   
                 </span>
               </>
             ) : (
